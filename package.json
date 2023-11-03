@@ -19,6 +19,7 @@
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
+  "homepage": "https://patrikmarcok.github.io/match-schedule/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "homepage": "https://patrikmarcok.github.io/match-schedule/"
+    "gh-pages": "^6.0.0"
   }
 }
