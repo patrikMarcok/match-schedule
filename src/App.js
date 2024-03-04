@@ -1,16 +1,15 @@
 // App.js
 import React from 'react';
 import './App.css';
-import MatchList from './MatchList';
+import RoutesComponent from './Routes';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Match List</h1>
-        <MatchList />
-      </header>
-    </div>
+    <RoutesComponent></RoutesComponent>
+        
   );
 }
 
